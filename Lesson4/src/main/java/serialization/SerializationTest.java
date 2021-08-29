@@ -1,10 +1,6 @@
 package serialization;
 
-import java.util.NoSuchElementException;
-
 import com.fasterxml.jackson.core.JsonFactory;
-import com.fasterxml.jackson.databind.node.NumericNode;
-import com.fasterxml.jackson.databind.node.ObjectNode;
 import com.google.gson.Gson;
 import org.jsfr.json.JacksonParser;
 import org.jsfr.json.JsonSurfer;
@@ -34,12 +30,12 @@ public class SerializationTest {
 
         String data = "{\n" +
                 "    \"data\": {\n" +
-                "        \"id\": 153514053,\n" +
-                "        \"url\": \"levinmk23\",\n" +
+                "        \"id\": 159654245,\n" +
+                "        \"url\": \"sevryushkinamv\",\n" +
                 "        \"bio\": null,\n" +
-                "        \"avatar\": \"https://imgur.com/user/levinmk23/avatar?maxwidth=290\",\n" +
+                "        \"avatar\": \"https://imgur.com/user/sevryushkinamv/avatar?maxwidth=290\",\n" +
                 "        \"avatar_name\": \"default/L\",\n" +
-                "        \"cover\": \"https://imgur.com/user/levinmk23/cover?maxwidth=2560\",\n" +
+                "        \"cover\": \"https://imgur.com/user/sevryushkinamv/cover?maxwidth=2560\",\n" +
                 "        \"cover_name\": \"default/1-space\",\n" +
                 "        \"reputation\": -1,\n" +
                 "        \"reputation_name\": \"Neutral\",\n" +
